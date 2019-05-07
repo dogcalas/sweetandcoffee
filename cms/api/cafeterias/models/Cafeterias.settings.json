@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "cafeterias",
+  "info": {
+    "name": "cafeterias",
+    "description": "Cafeterias Sweet & Coffee del Ecuador"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "Nombre": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "Descripción": {
+      "type": "text"
+    },
+    "Correo": {
+      "type": "email"
+    },
+    "Teléfono": {
+      "type": "integer"
+    }
+  }
+}

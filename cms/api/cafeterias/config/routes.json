@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cafeterias",
+      "handler": "Cafeterias.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cafeterias/count",
+      "handler": "Cafeterias.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cafeterias/:id",
+      "handler": "Cafeterias.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/cafeterias",
+      "handler": "Cafeterias.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/cafeterias/:id",
+      "handler": "Cafeterias.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/cafeterias/:id",
+      "handler": "Cafeterias.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
